@@ -6,7 +6,8 @@ export default defineNuxtConfig({
         '@pinia-plugin-persistedstate/nuxt',
         'nuxt-simple-sitemap',
         'nuxt-csurf',
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        'nuxt-icon'
     ],
     csurf: { // optional
         https: false, // default true if in production
